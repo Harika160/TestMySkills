@@ -3,6 +3,6 @@ inputList=["Hi","this" ,"is" ,"an" ,"test" ,"msg" ,"that" ,"needs" ,"to" ,"be", 
 resStr=''
 
 for i in inputList:
-  resStr+=i
+  resStr+=i+" "
 
 print(resStr)
