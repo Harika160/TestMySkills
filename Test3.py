@@ -1,8 +1,5 @@
 inputList=["Hi","this" ,"is" ,"an" ,"test" ,"msg" ,"that" ,"needs" ,"to" ,"be", "joined"]
 
-resStr=''
+resStr=' '
 
-for i in inputList:
-  resStr+=i+" "
-
-print(resStr)
+print(resStr.join(inputList))
